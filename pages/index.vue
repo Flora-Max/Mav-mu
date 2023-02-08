@@ -1,15 +1,18 @@
 <template>
-    <main class="container">
+    <main>
         <aside>
-            <ul class="flex mr-auto">
-                <li>Portfolio</li>
-                <li>Instagram</li>
-                <li>Facebook</li>
-                <li>Etsy</li>
+            <ul class="flex justify-end my-5">
+                <a href="portfolio" class="mx-5">Portfolio</a>
+                <a href="portfolio" class="mx-5">Instagram</a>
+                <a href="portfolio" class="mx-5">Facebook</a>
+                <a href="portfolio" class="mx-5">Etsy</a>
             </ul>
         </aside>
         <div class="flex justify-center items-center">
-            <img class="h-screen" src="../assets/img/logo.png" alt="">
+            <a href="portfolio">
+                <img class="h-screen" src="../assets/img/logo.png" alt=""/>
+            </a>
+            
         </div>
     </main>
 </template>
