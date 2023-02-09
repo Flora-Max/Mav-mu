@@ -83,5 +83,7 @@
       <the-card
       source="../assets/img/4-saisons.png"/>
     </div>
+
+    <the-footer/>
   </template>
   
