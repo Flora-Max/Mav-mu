@@ -63,7 +63,7 @@ export default {
               focus:outline-none focus:text-gray-400
             "
           >
-            <img class="w-8 h-8 fill-current" src="../assets/img/menu.png" alt="">
+            <img class="w-8 h-8 fill-current" src="../assets/icons/menu.png" alt="">
           </button>
         </div>
       </div>
@@ -80,18 +80,9 @@ export default {
           md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0
         "
       >
-        <li>
-            Facebook
-            <img class="w-5" src="../assets/img/logo-facebook.png" alt="">
-        </li>
-        <li>
-            Etsy
-            <img class="w-5" src="../assets/img/etsy.png" alt="">
-        </li>
-        <li>
-            Instagram
-            <img class="w-5" src="../assets/img/instagram.png" alt="">
-        </li>
+        <li class="md:hidden">Facebook</li>
+        <li class="md:hidden">Etsy</li>
+        <li class="md:hidden">Instagram</li>
       </ul>
     </nav>
   </div>

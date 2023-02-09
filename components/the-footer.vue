@@ -1,16 +1,16 @@
 <template>
-    <div class="flex items-center">
-        <ul>
-            <li>A propos</li>
-            <li>Vitrines</li>
-            <li>
-                <img class="w-7" src="../assets/img/instagram.png" alt="">
+    <div>
+        <ul class="flex justify-center my-10">
+            <li class="mx-5">A propos</li>
+            <li class="mx-5">Vitrines</li>
+            <li class="mx-5">
+                <img class="w-7" src="../assets/icons/instagram.png" alt="">
             </li>
-            <li>
-                <img class="w-7" src="../assets/img/logo-facebook.png" alt="">
+            <li class="mx-5">
+                <img class="w-7" src="../assets/icons/logo-facebook.png" alt="">
             </li>
-            <li>
-                <img class="w-7" src="../assets/img/instagram.png" alt="">
+            <li class="mx-5">
+                <img class="w-7" src="../assets/icons/instagram.png" alt="">
             </li>
         </ul>
     </div>

@@ -14,22 +14,22 @@
   
     <div class="container max-w-xl lg:max-w-5xl mx-auto px-4 py-8 grid grid-cols-1 gap-y-10 gap-x-8 sm:grid-cols-2 lg:grid-cols-3">
       <div>
-        <img src="../assets/img/oiseaux-verticaux.jpg" alt="">
+        <img class="border" src="../assets/img/oiseaux-verticaux.jpg" alt="">
       </div>
       <div>
-        <img src="../assets/img/oiseau-volant.jpg" alt="">
+        <img  src="../assets/img/oiseau-volant.jpg" alt="">
       </div>
       <div>
-        <img src="../assets/img/noms-oiseaux.jpg" alt="">
+        <img class="border" src="../assets/img/noms-oiseaux.jpg" alt="">
       </div>
       <div>
-        <img src="../assets/img/les-volants2.jpg" alt="">
+        <img class="border" src="../assets/img/les-volants2.jpg" alt="">
       </div>
       <div>
-        <img src="../assets/img/le-volant.jpg" alt="">
+        <img class="border" src="../assets/img/le-volant.jpg" alt="">
       </div>
       <div>
-        <img src="../assets/img/les-volants2.jpg" alt="">
+        <img class="border" src="../assets/img/les-volants2.jpg" alt="">
       </div>
       <div>
         <img src="../assets/img/Maxine.png" alt="">
