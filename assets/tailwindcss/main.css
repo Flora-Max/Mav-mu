@@ -1,0 +1,11 @@
+
+
+@tailwind base;
+@tailwind components;
+
+@font-face {
+    font-family: 'test';
+    src: local('Roboto'), url(./fonts/Roboto-Regular.ttf) format('ttf');
+  }
+
+@tailwind utilities;
