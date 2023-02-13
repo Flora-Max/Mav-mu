@@ -12,7 +12,7 @@
       <div class="w-1/4 border-t-2"></div>
     </section>
   
-    <div class="container max-w-xl lg:max-w-4xl mx-auto px-4 py-8 grid grid-cols-1 gap-y-10 gap-x-8 sm:grid-cols-2 lg:grid-cols-2">
+    <!-- <div class="container max-w-xl lg:max-w-4xl mx-auto px-4 py-8 grid grid-cols-1 gap-y-10 gap-x-8 sm:grid-cols-2 lg:grid-cols-2">
       <div>
         <img src="../assets/img2/LeBoule.jpg" alt="">
       </div>
@@ -42,11 +42,53 @@
       </div>
       <div>
         <img src="../assets/img2/Les-bavards.jpg" alt="">
+      </div> -->
+
+
+
+      <div class="container max-w-xl lg:max-w-4xl mx-auto px-4 py-8 gap-y-10 gap-x-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+      <div>
+        <img src="../assets/img2/LeBoule.jpg" alt="">
       </div>
+      <div>
+        <img src="../assets/img2/Préssécomme.jpg" alt="">
+      </div>
+      <div>
+        <img src="../assets/img2/Lamoula.jpg" alt="">
+      </div>
+      <!-- <div>
+        <img src="../assets/img2/les-volants1.jpg" alt="">
+      </div>
+      <div>
+        <img src="../assets/img2/les-volants2.jpg" alt="">
+      </div>
+      <div>
+        <img src="../assets/img2/beetleJuice1.jpg" alt="">
+      </div>
+      <div>
+        <img src="../assets/img2/BeetleJuice2.jpg" alt="">
+      </div>
+      <div>
+        <img src="../assets/img2/bisou-au-soleil.jpg" alt="">
+      </div>
+      <div>
+        <img src="../assets/img2/Les-bavards.jpg" alt="">
+      </div>  -->
+      </div>
+
+      <div class="flex flex-col sm:flex-row max-w-4xl flex-1">
+    
+      <div>
+        <img src="../assets/img2/lenvolée-cadre.jpg" alt="">
+      </div>
+      <div class="grid">
+        <img class="lg:col-start-3" src="../assets/img2/perroquet-cadre.jpg" alt="">
+      </div>
+    </div>
+      
   
       <the-card
       source="../assets/img/4-saisons.png"/>
-    </div>
 
     <the-footer/>
   </template>
