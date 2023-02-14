@@ -2,9 +2,9 @@
 
     <the-header/>
 
-    <!-- <div class="w-full flex justify-center">
-        <img class="w-96" src="../assets/img/visuel.png" alt="">
-    </div> -->
+    <div class="w-full flex justify-center mb-20">
+        <img class="max-w-xxl" src="../assets/img2/visuel2.png" alt="">
+    </div> 
 
 
 
@@ -50,7 +50,7 @@
       <div>
         <img src="../assets/img2/Préssécomme.jpg" alt="">
       </div>
-      <div>
+      <div class="">
         <img src="../assets/img2/Lamoula.jpg" alt="">
       </div>
 
@@ -96,19 +96,19 @@
 
       <div class="flex flex-col sm:flex-row justify-center">
         <div>
-          <img class="w-96" src="../assets/img2/lenvolée-cadre.jpg" alt="">
+          <img class="w-auto sm:w-96" src="../assets/img2/lenvolée-cadre.jpg" alt="">
         </div>
         <div>
-          <img class="w-96" src="../assets/img2/perroquet-cadre.jpg" alt="">
+          <img class="w-auto sm:w-96" src="../assets/img2/perroquet-cadre.jpg" alt="">
         </div>
       </div>
 
-      <div class="flex flex-col sm:flex-row sm:justify-center">
+      <div class="flex flex-col sm:flex-row justify-center">
         <div>
-          <img class="w-64 mr-36" src="../assets/img2/BeetleJuice2.jpg" alt="">
+          <img class="w-96 mb-40 sm:w-64 sm:mr-36" src="../assets/img2/BeetleJuice2.jpg" alt="">
         </div>
         <div>
-          <img class="w-64 ml-36" src="../assets/img2/beetleJuice1.jpg" alt="">
+          <img class="sm:w-64 sm:ml-36" src="../assets/img2/beetleJuice1.jpg" alt="">
         </div>
       </div>
 
