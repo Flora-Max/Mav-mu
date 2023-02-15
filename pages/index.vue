@@ -15,7 +15,7 @@
 
         <div class="h-screen overflow-y-hidden flex justify-center items-center">
             <a href="portfolio">
-                <img class="w-96 animate-pulse" src="../assets/img/logo.png" alt=""/>
+                <img class="w-96 animate-pulse" src="../assets/img2/logo-noir.png" alt=""/>
             </a>
         </div>
     </main>
