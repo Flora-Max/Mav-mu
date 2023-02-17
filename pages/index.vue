@@ -2,7 +2,7 @@
     <main>
         <nav class="w-auto flex justify-end mx-10 mt-10">
 
-            <ul class="hidden md:flex">
+            <ul class="hidden md:flex border-b-2 pb-4">
                 <a class="mx-5"  href="portfolio">Potfolio</a> 
                 <a class="mx-5"  href="portfolio">Vitrines</a>
                 <a class="mx-5"  href="about">A propos</a> 
@@ -15,7 +15,7 @@
 
         <div class="h-screen overflow-y-hidden flex justify-center items-center">
             <a href="portfolio">
-                <img class="w-96 animate-pulse" src="../assets/img2/logo-noir.png" alt=""/>
+                <img class=" animate-pulse" src="../assets/img2/logo-noir.png" alt=""/>
             </a>
         </div>
     </main>

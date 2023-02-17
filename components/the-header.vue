@@ -10,51 +10,26 @@ export default {
 </script>
 
 <template>
-
-<!-- 
-    <nav class="relative w-auto flex justify-between items-center mx-10 mt-10">
-
-        <div class="flex items-center">
-            <img class="w-20" src="../assets/img/logo.png" alt="">
-            <span class="items-center">Maëva Muësser</span>
-        </div>
-
-        <button @click="isOpen" class="w-4 md:hidden cursor-pointer">
-            <img src="../assets/img/menu.png" alt="">
-        </button>
-
-        <ul class="hidden md:flex">
-            <li class="mx-5">Instagram</li>
-            <li class="mx-5">Facebook</li>
-            <li class="mx-5">Etsy</li>
-        </ul>
-    </nav> -->
-
-    <div>
+  <div>
     <nav
       class="
         container
         px-6
-        py-8
         mx-auto
-        md:flex md:justify-between md:items-center
+        lg:flex lg:justify-between lg:items-center
       "
     >
       <div class="flex items-center justify-between">
         <router-link
           to="/"
           class="
-            text-xl
-            font-bold
-            text-gray-100
-            md:text-2xl
-            hover:text-indigo-400
-          "
+            md:text-2xl"
           >
-          <img class="w-1/4" src="../assets/img/mavName.jpeg" alt="">
+          <img class="w-96" src="../assets/img/mavName.jpeg" alt="">
         </router-link>
+
         <!-- Mobile menu button -->
-        <div @click="toggleNav" class="flex md:hidden">
+        <div @click="toggleNav" class="flex lg:hidden">
           <button
             type="button"
             class="
@@ -63,7 +38,7 @@ export default {
               focus:outline-none focus:text-gray-400
             "
           >
-            <img class="w-8 h-8 fill-current" src="../assets/icons/menu.png" alt="">
+            <img class="w-8 mb-12 fill-current" src="../assets/icons/menu.png" alt="">
           </button>
         </div>
       </div>
@@ -73,21 +48,33 @@ export default {
         :class="showMenu ? 'flex' : 'hidden'"
         class="
           flex-col
-          mt-10
-          space-y-8
+          space-y-6
           items-center
           text-xl
-          md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0
+          lg:flex lg:space-y-0 lg:flex-row lg:items-center lg:space-x-10 lg:mt-0
         "
       >
-        <li class="md:hidden">Facebook</li>
-        <li class="md:hidden">Etsy</li>
-        <li class="md:hidden">Instagram</li>
+        <nuxt-link to="about" class="lg:hidden font-thin hover:font-normal">
+          A propos
+        </nuxt-link>
+        <nuxt-link to="vitrines" class="lg:hidden font-thin hover:font-normal">
+          Vitrines
+        </nuxt-link>
+        <div :class="showMenu ? 'flex' : 'hidden'"
+              class="flex space-x-6">    
+          <a href="">
+            <img class="w-7" src="../assets/icons/instagram.png" alt="">
+          </a>
+          <a href="">
+            <img class="w-7" src="../assets/icons/logo-facebook.png" alt="">
+          </a>
+          <a href="">
+            <img class="w-7" src="../assets/icons/instagram.png" alt="">
+          </a>
+        </div>
       </ul>
     </nav>
   </div>
 
-    <section id="mobile-menu" class="absolute w-full flex flex-col justify-content-center">
-        <button class="self-end"></button>
-    </section>
+    
 </template>

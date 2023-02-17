@@ -1,8 +1,15 @@
 <template>
     <div>
         <ul class="flex justify-center my-36">
-            <a href="about">A propos</a>
-            <li class="mx-5">Vitrines</li>
+            <nuxt-link to="about" 
+            class="font-thin hover:font-normal">
+            A propos
+            </nuxt-link>
+
+            <nuxt-link to="vitrines" 
+            class="font-thin hover:font-normal mx-5">Vitrines
+            </nuxt-link>
+
             <li class="mx-5">
                 <img class="w-7" src="../assets/icons/instagram.png" alt="">
             </li>
