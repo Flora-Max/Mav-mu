@@ -62,14 +62,11 @@ export default {
         </nuxt-link>
         <div :class="showMenu ? 'flex' : 'hidden'"
               class="flex space-x-6">    
-          <a href="">
+          <a href="https://instagram.com/maevamue?igshid=YmMyMTA2M2Y=">
             <img class="w-7" src="../assets/icons/instagram.png" alt="">
           </a>
-          <a href="">
-            <img class="w-7" src="../assets/icons/logo-facebook.png" alt="">
-          </a>
-          <a href="">
-            <img class="w-7" src="../assets/icons/instagram.png" alt="">
+          <a href="https://etsy.com/fr/shop/MaevaMu">
+            <img class="w-7" src="../assets/icons/etsy.png" alt="">
           </a>
         </div>
       </ul>

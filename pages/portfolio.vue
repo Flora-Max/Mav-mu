@@ -45,6 +45,9 @@
         <img class="w-auto sm:w-96" src="../assets/img2/bisou-volant-cadre.jpg" alt="">
       </div> 
 
+      <!--Ligne 7-->
+      <img class="mx-auto sm:max-w-3xl" src="../assets/img2/animaux-simplifiés.png" alt="">
+
   <the-footer/>
 
 </template>
