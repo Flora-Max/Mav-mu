@@ -2,7 +2,7 @@
 
     <the-header/>
 
-    <h1 class="text-center text-xl my-12 font-light">A propos</h1>
+    <h1 class="text-center text-xl my-12 font-thin text-2xl tracking-widest">A propos</h1>
 
     <div class="max-w-xl mx-4 sm:mx-auto gap-y-6 sm:gap-x-8 lg:max-w-4xl grid grid-cols-1 sm:grid-cols-3">
         <img src="../assets/img/bisou-au-soleil.jpg" alt="">

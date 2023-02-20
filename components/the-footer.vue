@@ -10,11 +10,15 @@
             class="font-thin hover:font-normal mx-5">Vitrines
             </nuxt-link>
 
+            <nuxt-link to="contact" 
+            class="font-thin hover:font-normal">Contact
+            </nuxt-link>
+
             <a class="mx-5 ease-in duration-300" href="https://instagram.com/maevamue?igshid=YmMyMTA2M2Y=">
-                <img class="w-7" src="../assets/icons/instagram.png" alt="">
+                <img class="w-6" src="../assets/icons/instagram.png" alt="">
             </a>
-            <a class="mx-5" href="https://etsy.com/fr/shop/MaevaMu">
-                <img class="w-7" src="../assets/icons/etsy.png" alt="">
+            <a href="https://etsy.com/fr/shop/MaevaMu">
+                <img class="w-5" src="../assets/icons/etsy.png" alt="">
             </a>
         </ul>
     </div>
