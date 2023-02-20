@@ -2,7 +2,7 @@
     <div>
         <ul class="flex justify-center my-36">
             <nuxt-link to="about" 
-            class="font-thin hover:font-normal">
+            class="font-thin hover:underline underline-offset-4">
             A propos
             </nuxt-link>
 
