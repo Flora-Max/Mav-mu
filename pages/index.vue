@@ -21,9 +21,9 @@
     </div>
 
     <!--Ligne 3-->
-    <div class="container max-w-xl mb-24 mt-16 lg:max-w-4xl mx-auto px-4 gap-x-12 gap-y-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-      <img src="../assets/img2/BeetleJuice2.jpg" alt="">
-      <img src="../assets/img2/beetleJuice1.jpg" alt="">
+    <div class="container max-w-xl mb-20 mt-16 lg:max-w-4xl mx-auto px-4 gap-x-12 gap-y-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+      <img  class="mb-24 md:mb-0" src="../assets/img2/BeetleJuice2.jpg" alt="">
+      <img class="mb-24 md:mb-0" src="../assets/img2/beetleJuice1.jpg" alt="">
       <img class="sm:col-start-2 lg:col-start-3" src="../assets/img2/BeetleJuice3.jpg" alt="">
     </div>
 
