@@ -54,11 +54,15 @@ export default {
           lg:flex lg:space-y-0 lg:flex-row lg:items-center lg:space-x-10 lg:mt-0
         "
       >
+       
+        <nuxt-link to="andMore" class="lg:hidden font-thin hover:font-normal">
+          Mais aussi 
+        </nuxt-link>
         <nuxt-link to="about" class="lg:hidden font-thin hover:font-normal">
           A propos
         </nuxt-link>
-        <nuxt-link to="vitrines" class="lg:hidden font-thin hover:font-normal">
-          Vitrines
+        <nuxt-link to="contact" class="lg:hidden font-thin hover:font-normal">
+          Contact
         </nuxt-link>
         <div :class="showMenu ? 'flex' : 'hidden'"
               class="flex space-x-6">    
