@@ -19,7 +19,7 @@
                 <img class="w-6" src="../assets/icons/instagram.png" alt="">
             </a>
             <a href="https://etsy.com/fr/shop/MaevaMu">
-                <img class="w-5" src="../assets/icons/etsy.png" alt="">
+                <img class="w-5 mt-0.5" src="../assets/icons/etsy.png" alt="">
             </a>
         </ul>
     </div>

@@ -2,7 +2,7 @@
 
     <the-header/>
 
-    <h1 class="text-center my-12 font-thin text-2xl tracking-widest">Mais aussi ...</h1>
+    <h1 class="text-center my-12 font-thin text-2xl tracking-widest">Mais aussi</h1>
 
     <p class="text-center text-base text-center font-thin tracking-widest mx-12 lg:mx-96 mb-12">Pour illuminer vos évênements, sublimer vos marchandises ou encore habiller votre intérieur je propose également des objets de décorations et des réalisations scénographiques.</p>
 

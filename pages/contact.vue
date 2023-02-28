@@ -28,7 +28,7 @@
                 </div>
 
                 <div class="mb-8">
-                    <textarea name="message" required rows="6" class="w-full focus:outline-none" placeholder="Rédigez votre messsage ici ..."></textarea>
+                    <textarea name="message" required rows="6" maxlenght="255" class="w-full focus:outline-none" placeholder="Rédigez votre messsage ici ..."></textarea>
                     <hr>
                 </div>
 
