@@ -7,7 +7,7 @@
     <the-header/>
 
     <section class="mx-auto">
-        <div class="max-w-xl mx-auto">
+        <div class="max-w-xl mx-8 sm:mx-auto">
             <h1 class="text-center text-2xl font-thin tracking-widest">contact</h1>
             <p class="mt-8 mb-20 font-thin text-center">Pour toutes demandes contactez moi</p>
 

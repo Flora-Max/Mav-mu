@@ -25,7 +25,7 @@ export default {
           class="
             md:text-2xl"
           >
-          <img class="w-96" src="../assets/img/mavName.jpeg" alt="">
+          <img class="w-48 sm:w-56 my-20" src="../assets/img/mavName2.png" alt="">
         </router-link>
 
         <!-- Mobile menu button -->
@@ -38,7 +38,7 @@ export default {
               focus:outline-none focus:text-gray-400
             "
           >
-            <img class="w-8 mb-12 fill-current" src="../assets/icons/menu.png" alt="">
+            <img class="w-8 fill-current" src="../assets/icons/menu.png" alt="">
           </button>
         </div>
       </div>
@@ -51,6 +51,9 @@ export default {
           space-y-6
           items-center
           text-xl
+          mb-20
+          pb-8
+          border-b-2
           lg:flex lg:space-y-0 lg:flex-row lg:items-center lg:space-x-10 lg:mt-0
         "
       >

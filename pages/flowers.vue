@@ -13,7 +13,7 @@
         <img src="../assets/flowers/bouquet-tissus.jpg" alt="">
 
         <!--LIGNE 3-->
-        <img src="../assets/flowers/fleurs-tissus.jpg" alt="">
+        <img src="../assets/flowers/bouquet-XXL.jpg" alt="">
         <span class="font-thin text-lg tracking-wider text-center my-auto">Bouquets <br>à suspendre <br>et fleurs XXL en tissu. <br>Pétales coupées, <br>entoilées <br>et assemblées <br>à la main.</span>
 
         <!--LIGNE 4-->

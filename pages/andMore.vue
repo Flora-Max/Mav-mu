@@ -2,9 +2,9 @@
 
     <the-header/>
 
-    <h1 class="text-center my-12 font-thin text-2xl tracking-widest">Mais aussi</h1>
+    <h1 class="text-center mb-12 font-thin text-2xl tracking-widest">Mais aussi</h1>
 
-    <p class="text-center text-base text-center font-thin tracking-widest mx-12 lg:mx-96 mb-12">Pour illuminer vos évênements, sublimer vos marchandises ou encore habiller votre intérieur je propose également des objets de décorations et des réalisations scénographiques.</p>
+    <p class="text-center text-base font-thin tracking-widest mx-12 lg:mx-96 mb-12">Pour illuminer vos évênements, sublimer vos marchandises ou encore habiller votre intérieur je propose également des objets de décorations et des réalisations scénographiques.</p>
 
     <div class="container max-w-md lg:max-w-2xl mx-auto gap-x-44 grid grid-cols-1 sm:grid-cols-2">
         <img class="row-start-1 sm:mt-8" src="../assets/img3/les-fleurs.jpg" alt="">
