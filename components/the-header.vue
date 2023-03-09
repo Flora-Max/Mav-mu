@@ -25,7 +25,7 @@ export default {
           class="
             md:text-2xl"
           >
-          <img class="w-48 sm:w-56 my-20" src="../assets/img/mavName2.png" alt="">
+          <img class="w-48 sm:w-56 my-20" src="../assets/img2/logo.png" alt="">
         </router-link>
 
         <!-- Mobile menu button -->
